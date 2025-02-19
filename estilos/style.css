@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    height: 100vh; /*altura total do navegador*/
+    width: 100vw; /*largura total do navegador*/
+    background-color: black;
+}
+
+body {
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
+    background-size: cover;/*para cobrir a tela inteira*/
+    background-attachment: fixed;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
+#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    width: 311px; /* largura da pra ver no gimp */
+    height: 627px;/* altura tbm da pra ver no gimp */
+    background: url('../imagens/frame-iphone.png') no-repeat;
+}
