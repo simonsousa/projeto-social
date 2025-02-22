@@ -34,3 +34,11 @@ main {
     height: 627px;/* altura tbm da pra ver no gimp */
     background: url('../imagens/frame-iphone.png') no-repeat;
 }
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
+}
